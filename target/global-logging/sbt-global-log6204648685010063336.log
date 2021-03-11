@@ -1,0 +1,138 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.5 (Private Build Java 1.8.0_275)
+[debug]       Load.loadUnit: plugins took 221.258311ms
+[debug]       Load.loadUnit: defsScala took 0.798341ms
+[debug] [Loading] Scanning directory /home/olzhas/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/olzhas/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 57.247478 ms
+[debug]           Load.resolveProject(global-plugins) took 98.246033ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/olzhas/.sbt/1.0/plugins, plugins: List(<none>))) took 506.566864ms
+[debug] [Loading] Done in /home/olzhas/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 565.103179ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.651888ms
+[debug]     Load.loadUnit(file:/home/olzhas/.sbt/1.0/plugins/, ...) took 804.409114ms
+[debug]   Load.apply: load took 1160.725962ms
+[debug]   Load.apply: resolveProjects took 14.31013ms
+[debug]   Load.apply: finalTransforms took 123.617281ms
+[debug]   Load.apply: config.delegates took 17.495258ms
+[debug]   Load.apply: Def.make(settings)... took 824.872951ms
+[debug]   Load.apply: structureIndex took 205.803553ms
+[debug]   Load.apply: mkStreams took 2.950877ms
+[info] loading global plugins from /home/olzhas/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 5838.39808ms
+[debug]           Load.loadUnit: plugins took 25.233836ms
+[debug]           Load.loadUnit: defsScala took 0.008826ms
+[debug] [Loading] Scanning directory /home/olzhas/IdeaProjects/Backend/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/olzhas/IdeaProjects/Backend/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.659848 ms
+[debug]               Load.resolveProject(backend-build) took 2.076606ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id backend-build, base: /home/olzhas/IdeaProjects/Backend/project, plugins: List(<none>))) took 6.852937ms
+[debug] [Loading] Done in /home/olzhas/IdeaProjects/Backend/project, returning: (backend-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 9.944061ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.016915ms
+[debug]         Load.loadUnit(file:/home/olzhas/IdeaProjects/Backend/project/, ...) took 36.425567ms
+[debug]       Load.apply: load took 38.202032ms
+[debug]       Load.apply: resolveProjects took 0.238968ms
+[debug]       Load.apply: finalTransforms took 20.492489ms
+[debug]       Load.apply: config.delegates took 0.92197ms
+[debug]       Load.apply: Def.make(settings)... took 167.357346ms
+[debug]       Load.apply: structureIndex took 63.545386ms
+[debug]       Load.apply: mkStreams took 0.004195ms
+[info] loading project definition from /home/olzhas/IdeaProjects/Backend/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 675.377876ms
+[debug]     Load.loadUnit: defsScala took 0.008356ms
+[debug] [Loading] Scanning directory /home/olzhas/IdeaProjects/Backend
+[debug]       Load.loadUnit: mkEval took 20.807473ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/olzhas/IdeaProjects/Backend, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.721577 ms
+[info] loading settings for project backend from build.sbt ...
+[debug]         Load.resolveProject(backend) took 5.002952ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id backend, base: /home/olzhas/IdeaProjects/Backend, plugins: List(<none>))) took 9.795085ms
+[debug] [Loading] Done in /home/olzhas/IdeaProjects/Backend, returning: (backend)
+[debug]     Load.loadUnit: loadedProjectsRaw took 509.6311ms
+[debug]     Load.loadUnit: cleanEvalClasses took 10.908574ms
+[debug]   Load.loadUnit(file:/home/olzhas/IdeaProjects/Backend/, ...) took 1198.614496ms
+[debug] Load.apply: load took 1200.66285ms
+[debug] Load.apply: resolveProjects took 0.20017ms
+[debug] Load.apply: finalTransforms took 15.450889ms
+[debug] Load.apply: config.delegates took 0.681932ms
+[debug] Load.apply: Def.make(settings)... took 141.638498ms
+[debug] Load.apply: structureIndex took 55.61894ms
+[debug] Load.apply: mkStreams took 0.005738ms
+[info] set current project to Backend (in build file:/home/olzhas/IdeaProjects/Backend/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(~run, None, None)
+[info] sbt server started at local:///home/olzhas/.sbt/1.0/server/4ad2a33bb3d4bb9af9ee/sock
+[info] started sbt server
+[debug] > Exec(__runWatch console0, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(__preWatch console0, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to /home/olzhas/IdeaProjects/Backend/target/scala-2.13/classes ...
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/node/Node.scala:105:20: local method system in value $anonfun is never used
+[warn]       implicit def system: ActorSystem[Nothing] = context.system
+[warn]                    ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/node/Node.scala:107:20: local method scheduler in value $anonfun is never used
+[warn]       implicit def scheduler: Scheduler = context.system.scheduler
+[warn]                    ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/node/Node.scala:109:25: local val timeout in value $anonfun is never used
+[warn]       implicit lazy val timeout: Timeout = Timeout(5.seconds)
+[warn]                         ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repo/UserAccount.scala:30:11: local var newBookList in method addToCart is never updated: consider using immutable val
+[warn]       var newBookList = user.books :+ getBookById(bookId)
+[warn]           ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repo/UserAccount.scala:31:11: local var changedUser in method addToCart is never updated: consider using immutable val
+[warn]       var changedUser = user.copy(books=newBookList)
+[warn]           ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repo/UserAccount.scala:35:12: local var newBookList in method deleteFromCart is never updated: consider using immutable val
+[warn]        var newBookList = user.books.filter(book => (book.id != bookId))
+[warn]            ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repo/UserAccount.scala:36:12: local var changedUser in method deleteFromCart is never updated: consider using immutable val
+[warn]        var changedUser = user.copy(books=newBookList)
+[warn]            ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/node/Node.scala:114:9: match may not be exhaustive.
+[warn] It would fail on the following input: (x: node.Node.Command forSome x not in (node.Node.AddBookToAccount, node.Node.Check, node.Node.Create, node.Node.CreateBook, node.Node.CreateCategory, node.Node.CreateCoffee, node.Node.DeleteAccount, node.Node.DeleteBook, node.Node.DeleteBookFromAccount, node.Node.DeleteCategory, node.Node.DeleteCoffee, node.Node.FindBook, node.Node.GetAccount, node.Node.GetAccounts, node.Node.GetBook, node.Node.GetBooks, node.Node.GetCategories, node.Node.GetCategory, node.Node.GetCoffee, node.Node.GetCoffees, node.Node.GetToken, node.Node.RateCoffee, node.Node.UpdateBook, node.Node.UpdateCategory, node.Node.UpdateCoffee))
+[warn]         message match {
+[warn]         ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repo/UserAccount.scala:280:5: match may not be exhaustive.
+[warn] It would fail on the following input: (x: node.Node.Command forSome x not in (repo.UserAccount.AddBook, repo.UserAccount.AddCategory, repo.UserAccount.AddCoffee, repo.UserAccount.AddToCart, repo.UserAccount.AddUser, repo.UserAccount.AdjustBook, repo.UserAccount.AdjustUser, repo.UserAccount.Checkout, repo.UserAccount.CheckoutBook, repo.UserAccount.DeleteFromCart, repo.UserAccount.GetBook, repo.UserAccount.GetBooks, repo.UserAccount.GetCategories, repo.UserAccount.GetCategory, repo.UserAccount.GetCoffee, repo.UserAccount.GetCoffees, repo.UserAccount.GetToken, repo.UserAccount.GetUser, repo.UserAccount.GetUsers, repo.UserAccount.RateCoffee, repo.UserAccount.RemoveBook, repo.UserAccount.RemoveCategory, repo.UserAccount.RemoveCoffee, repo.UserAccount.RemoveUser, repo.UserAccount.SearchBookByName, repo.UserAccount.UpdateBook, repo.UserAccount.UpdateCategory, repo.UserAccount.UpdateCoffee))
+[warn]     command match {
+[warn]     ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repo/UserAccount.scala:573:5: match may not be exhaustive.
+[warn] It would fail on the following input: (x: node.Node.Command forSome x not in (repo.UserAccount.AddBook, repo.UserAccount.AddToCart, repo.UserAccount.AddUser, repo.UserAccount.AdjustBook, repo.UserAccount.AdjustUser, repo.UserAccount.Checkout, repo.UserAccount.CheckoutBook, repo.UserAccount.GetBook, repo.UserAccount.GetBooks, repo.UserAccount.GetUser, repo.UserAccount.RemoveBook, repo.UserAccount.RemoveUser))
+[warn]     command match {
+[warn]     ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repo/UserAccount.scala:633:54: unreachable code
+[warn]       case BookRemoved(_, itemId) => state.removeBook(itemId)
+[warn]                                                      ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repo/UserAccount.scala:616:5: match may not be exhaustive.
+[warn] It would fail on the following input: CoffeeRemoved(_, _)
+[warn]     event match {
+[warn]     ^
+[warn] 12 warnings found
+[info] done compiling

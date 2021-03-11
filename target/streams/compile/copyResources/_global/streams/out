@@ -1,0 +1,3 @@
+[debug] Copy resource mappings: 
+[debug] 	(/home/olzhas/IdeaProjects/Backend/src/main/resources/application.conf,/home/olzhas/IdeaProjects/Backend/target/scala-2.13/classes/application.conf)
+[debug] 	(/home/olzhas/IdeaProjects/Backend/src/main/resources/logback.xml,/home/olzhas/IdeaProjects/Backend/target/scala-2.13/classes/logback.xml)

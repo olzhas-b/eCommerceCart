@@ -1,0 +1,234 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.5 (Private Build Java 1.8.0_275)
+[debug]       Load.loadUnit: plugins took 268.503406ms
+[debug]       Load.loadUnit: defsScala took 1.03781ms
+[debug] [Loading] Scanning directory /home/olzhas/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/olzhas/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 44.058627 ms
+[debug]           Load.resolveProject(global-plugins) took 369.548707ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/olzhas/.sbt/1.0/plugins, plugins: List(<none>))) took 473.192118ms
+[debug] [Loading] Done in /home/olzhas/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 517.472301ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.401749ms
+[debug]     Load.loadUnit(file:/home/olzhas/.sbt/1.0/plugins/, ...) took 801.891051ms
+[debug]   Load.apply: load took 1247.880225ms
+[debug]   Load.apply: resolveProjects took 21.771601ms
+[debug]   Load.apply: finalTransforms took 125.423274ms
+[debug]   Load.apply: config.delegates took 13.642123ms
+[debug]   Load.apply: Def.make(settings)... took 1204.595733ms
+[debug]   Load.apply: structureIndex took 257.857862ms
+[debug]   Load.apply: mkStreams took 2.766941ms
+[info] loading global plugins from /home/olzhas/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 7357.175702ms
+[debug]           Load.loadUnit: plugins took 109.872538ms
+[debug]           Load.loadUnit: defsScala took 0.005007ms
+[debug] [Loading] Scanning directory /home/olzhas/IdeaProjects/Backend/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/olzhas/IdeaProjects/Backend/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.365668 ms
+[debug]               Load.resolveProject(backend-build) took 1.824685ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id backend-build, base: /home/olzhas/IdeaProjects/Backend/project, plugins: List(<none>))) took 6.088375ms
+[debug] [Loading] Done in /home/olzhas/IdeaProjects/Backend/project, returning: (backend-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 8.861746ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.019943ms
+[debug]         Load.loadUnit(file:/home/olzhas/IdeaProjects/Backend/project/, ...) took 119.633289ms
+[debug]       Load.apply: load took 121.279275ms
+[debug]       Load.apply: resolveProjects took 0.148233ms
+[debug]       Load.apply: finalTransforms took 17.748439ms
+[debug]       Load.apply: config.delegates took 0.709453ms
+[debug]       Load.apply: Def.make(settings)... took 146.455455ms
+[debug]       Load.apply: structureIndex took 47.13696ms
+[debug]       Load.apply: mkStreams took 0.002848ms
+[info] loading project definition from /home/olzhas/IdeaProjects/Backend/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 862.695407ms
+[debug]     Load.loadUnit: defsScala took 0.003416ms
+[debug] [Loading] Scanning directory /home/olzhas/IdeaProjects/Backend
+[debug]       Load.loadUnit: mkEval took 13.665832ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/olzhas/IdeaProjects/Backend, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.824883 ms
+[info] loading settings for project backend from build.sbt ...
+[debug]         Load.resolveProject(backend) took 3.425938ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id backend, base: /home/olzhas/IdeaProjects/Backend, plugins: List(<none>))) took 8.22751ms
+[debug] [Loading] Done in /home/olzhas/IdeaProjects/Backend, returning: (backend)
+[debug]     Load.loadUnit: loadedProjectsRaw took 472.426271ms
+[debug]     Load.loadUnit: cleanEvalClasses took 7.193469ms
+[debug]   Load.loadUnit(file:/home/olzhas/IdeaProjects/Backend/, ...) took 1343.307263ms
+[debug] Load.apply: load took 1345.976043ms
+[debug] Load.apply: resolveProjects took 0.119541ms
+[debug] Load.apply: finalTransforms took 8.895578ms
+[debug] Load.apply: config.delegates took 0.467303ms
+[debug] Load.apply: Def.make(settings)... took 105.14137ms
+[debug] Load.apply: structureIndex took 48.345145ms
+[debug] Load.apply: mkStreams took 0.004214ms
+[info] set current project to Backend (in build file:/home/olzhas/IdeaProjects/Backend/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(~run, None, None)
+[info] sbt server started at local:///home/olzhas/.sbt/1.0/server/4ad2a33bb3d4bb9af9ee/sock
+[info] started sbt server
+[debug] > Exec(__runWatch console0, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(__preWatch console0, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to /home/olzhas/IdeaProjects/Backend/target/scala-2.13/classes ...
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repository/UsersRepository.scala:3:18: Unused import
+[warn] import java.util.UUID
+[warn]                  ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repository/UsersRepository.scala:5:21: Unused import
+[warn] import UsersAccount._
+[warn]                     ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repository/UsersRepository.scala:7:44: Unused import
+[warn] import scala.concurrent.{ExecutionContext, Future}
+[warn]                                            ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repository/UsersRepository.scala:8:14: Unused import
+[warn] import model.AddProductToBasket
+[warn]              ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repository/UsersRepository.scala:30:15: private var users in class InMemoryRepository is never used
+[warn]   private var users: Vector[User] = usersList.toVector
+[warn]               ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repository/UsersRepository.scala:31:15: private var products in class InMemoryRepository is never used
+[warn]   private var products: Vector[Product] = booksList.toVector
+[warn]               ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repository/UsersRepository.scala:32:15: private var cnt in class InMemoryRepository is never used
+[warn]   private var cnt: Int = 0
+[warn]               ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repository/UsersRepository.scala:142:15: private method apply in object ApiError is never used
+[warn]   private def apply(statusCode: StatusCode, message: String): ApiError = new ApiError(statusCode, message)
+[warn]               ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repository/UsersRepository.scala:28:36: parameter value ex in class InMemoryRepository is never used
+[warn]                         (implicit  ex:ExecutionContext) extends UsersRepository {
+[warn]                                    ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/repository/UsersRepository.scala:129:96: match may not be exhaustive.
+[warn] It would fail on the following input: Failure(_)
+[warn]   def handle[T](f: Future[T])(e: Throwable => ApiError): Directive1[T] = onComplete(f) flatMap {
+[warn]                                                                                                ^
+[warn] 10 warnings found
+[info] done compiling
+[info] compiling 1 Scala source to /home/olzhas/IdeaProjects/Backend/target/scala-2.13/classes ...
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:8:20: Unused import
+[warn] import repository.{ApiError, BookNotFound, UsersDirectives}
+[warn]                    ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:8:30: Unused import
+[warn] import repository.{ApiError, BookNotFound, UsersDirectives}
+[warn]                              ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:19:81: parameter value ex in class NodeRouter is never used
+[warn] class NodeRouter( node:ActorRef[Node.Command])(implicit system: ActorSystem[_], ex:ExecutionContext)
+[warn]                                                                                 ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:33:22: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]             complete(response)
+[warn]                      ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:39:20: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]           entity(as[PostText]) { token =>
+[warn]                    ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:45:24: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]               complete(token)
+[warn]                        ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:52:20: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]           entity(as[NewUser]) { newUser =>
+[warn]                    ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:61:24: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]               complete(response)
+[warn]                        ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:69:22: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]             entity(as[AddProductToBasket]) { updateUser =>
+[warn]                      ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:73:26: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                 complete(response)
+[warn]                          ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:78:22: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]             entity(as[AddProductToBasket]) { updateUser =>
+[warn]                      ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:82:26: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                 complete(response)
+[warn]                          ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:96:28: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                   complete(response)
+[warn]                            ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:103:28: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                   complete(response)
+[warn]                            ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:107:26: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                 entity(as[AddProductToBasket]) { updateUser =>
+[warn]                          ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:111:30: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                     complete(response)
+[warn]                              ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:121:24: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]               complete(response)
+[warn]                        ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:125:22: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]             entity(as[NewUser]) { createUser =>
+[warn]                      ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:134:26: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                 complete(response)
+[warn]                          ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:149:28: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                   complete(response)
+[warn]                            ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:156:28: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                   complete(response)
+[warn]                            ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:160:26: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                 entity(as[UpdateCategory]) { updateCat =>
+[warn]                          ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:164:30: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                     complete(response)
+[warn]                              ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:175:26: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                 complete(response)
+[warn]                          ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:179:24: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]               entity(as[CreateCategory]) { createCat =>
+[warn]                        ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:188:28: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                   complete(response)
+[warn]                            ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:204:28: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                   complete(response)
+[warn]                            ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:215:28: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                   complete(response)
+[warn]                            ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:222:28: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                   complete(response)
+[warn]                            ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:226:26: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                 entity(as[UpdateProduct]) { updateBook=>
+[warn]                          ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:230:30: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                     complete(response)
+[warn]                              ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:241:26: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                 complete(response)
+[warn]                          ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:245:24: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]               entity(as[newProduct]) { createBook =>
+[warn]                        ^
+[warn] /home/olzhas/IdeaProjects/Backend/src/main/scala/api/Router.scala:254:28: Block result was adapted via implicit conversion (method apply) taking a by-name parameter
+[warn]                   complete(response)
+[warn]                            ^
+[warn] 34 warnings found
+[info] done compiling
